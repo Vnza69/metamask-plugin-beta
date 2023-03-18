@@ -85,7 +85,7 @@
 - [#6714](https://github.com/MetaMask/metamask-extension/pull/6714): Wrap smaller custom block explorer url text
 - [#6706](https://github.com/MetaMask/metamask-extension/pull/6706): Pin ethereumjs-tx
 - [#6700](https://github.com/MetaMask/metamask-extension/pull/6700): Fix styles on 'import account' page, update help link
-- [#6775](https://github.com/MetaMask/metamask-extension/pull/6775): Started adding visual documentation of MetaMask plugin components with the account menu component first
+- [#6775](https://github.com/MetaMask/metamask-extension/pull/6775): Started adding visual documentation of MetaMask components with the account menu component first
 
 ## 6.6.2 Fri Jun 07 2019
 
@@ -1192,12 +1192,6 @@ rollback to 3.10.0 due to bug
 too help visualize transactions and to where they are going.
 - Show "Buy Ether" button and warning on tx confirmation when sender balance is insufficient
 
-## 2.12.1 2016-09-14
-
-- Fixed bug where if you send a transaction from within MetaMask extension the
-popup notification opens up.
-- Fixed bug where some tx errors would block subsequent txs until the plugin was refreshed.
-
 ## 2.12.0 2016-09-14
 
 - Add a QR button to the Account detail screen
@@ -1290,8 +1284,6 @@ popup notification opens up.
 - Removed firefox-specific line in manifest.
 
 ## 2.6.2 2016-07-20
-
-- Fixed bug that would prevent the plugin from reopening on the first try after receiving a new transaction while locked.
 - Fixed bug that would render 0 ETH as a non-exact amount.
 
 ## 2.6.1 2016-07-13
@@ -1458,7 +1450,7 @@ popup notification opens up.
 ## 1.5.1 2016-04-15
 
 - Corrected text above account list. Selected account is visible to all sites, not just the current domain.
-- Merged the UI codebase into the main plugin codebase for simpler maintenance.
+- Merged the UI codebase into the main codebase for simpler maintenance.
 - Fix Ether display rounding error. Now rendering to four decimal points.
 - Fix some inpage synchronous methods
 - Change account rendering to show four decimals and a leading zero.

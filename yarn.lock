@@ -2132,7 +2132,6 @@
   resolved "https://registry.yarnpkg.com/@storybook/core/-/core-5.1.1.tgz#f2697258fe1d7636e08e29206e8551f36f5d99b8"
   integrity sha512-09/EcL6Ev6HY1OlzE95CYrsb2U8gPxgvn1l/nQQwwG8XDwd5eQNWzTggCfu+jTdm/JIzfp6k6T1SruZsAX+YXA==
   dependencies:
-    "@babel/plugin-proposal-class-properties" "^7.3.3"
     "@babel/plugin-proposal-object-rest-spread" "^7.3.2"
     "@babel/plugin-syntax-dynamic-import" "^7.2.0"
     "@babel/plugin-transform-react-constant-elements" "^7.2.0"
@@ -2153,7 +2152,6 @@
     babel-plugin-macros "^2.4.5"
     babel-preset-minify "^0.5.0 || 0.6.0-alpha.5"
     boxen "^3.0.0"
-    case-sensitive-paths-webpack-plugin "^2.2.0"
     chalk "^2.4.2"
     cli-table3 "0.5.1"
     commander "^2.19.0"
@@ -2169,7 +2167,7 @@
     find-cache-dir "^3.0.0"
     fs-extra "^8.0.1"
     global "^4.3.2"
-    html-webpack-plugin "^4.0.0-beta.2"
+  
     inquirer "^6.2.0"
     interpret "^1.2.0"
     ip "^1.1.5"
